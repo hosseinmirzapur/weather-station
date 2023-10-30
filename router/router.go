@@ -1,9 +1,15 @@
 package router
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"github.com/gofiber/fiber/v2"
+	"github.com/hosseinmirzapur/weatherstation/handlers"
+)
 
-func RegisterAppRouter(app *fiber.App) error {
-	return nil
+func RegisterAppRouter(app *fiber.App) {
+	v1 := app.Group("/v1")
+	{
+		v1.Get("/weather-info", handlers.GetWeatherInfo)
+	}
 }
 
 /*
