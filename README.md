@@ -70,6 +70,6 @@ MIT
 
 ## Contact
 
-For any questions or inquiries, please contact Hossein Mirzapur at [hosseinmirzapur@gmail.com].
+For any questions or inquiries, please contact Hossein Mirzapur at hosseinmirzapur@gmail.com.
 
 Feel free to customize the README file based on your specific project requirements, additional features, or team information.
